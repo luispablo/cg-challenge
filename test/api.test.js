@@ -12,7 +12,7 @@ describe("API", function () {
   });
 
   it("should get all workouts", async function () {
-    const { body, status } = await request(app).get("/api/workouts");
+    const { body, status } = await request(app).get("/api/workouts?trainerId=all");
     expect(status).to.eq(200);
     expect(body).to.have.lengthOf.above(0);
     const [workout] = body;
