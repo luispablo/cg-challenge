@@ -22,3 +22,33 @@ Build a React.js single-page app that showcases a small library of workouts that
 - It goes without saying, but please document how to run/access your application.
 - tests are great!
 - What features you decide to add is entirely up to you based on your assessment of how to make the application helpful to the end-user, as well as the time limitation.
+
+## How to run the application
+
+1. Clone the code from the GitHub repo
+
+```sh
+$ git clone git@github.com:luispablo/cg-challenge.git
+```
+
+2. Install needed dependencies (if you have [nvm](https://github.com/nvm-sh/nvm) intalled the ```.nvmrc``` file will automatically set the needed NodeJS version)
+
+```sh
+$ cd cg-challenge
+$ npm install
+```
+
+3. You can now run the unit tests
+
+```sh
+$ npm test
+```
+
+4. To locally run the application
+
+```
+$ npm start
+```
+
+Now you can access it at http://localhost:3000/
+

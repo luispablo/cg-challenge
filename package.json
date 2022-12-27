@@ -1,0 +1,43 @@
+{
+  "name": "camp-gladiator-challenge",
+  "version": "1.0.0",
+  "description": "CG Mars Workout - Frontend Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*",
+    "start": "node index.js",
+    "watch": "node_modules/watchify/bin/cmd.js app/client.js -t babelify -dv -o public/js/bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luispablo/cg-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luispablo/cg-challenge/issues"
+  },
+  "homepage": "https://github.com/luispablo/cg-challenge#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babelify": "^10.0.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0",
+    "supertest": "^6.3.3",
+    "watchify": "^4.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}

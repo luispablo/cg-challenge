@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(230, 230, 230, 1);
+  padding-top: 75px;
+}
+
+div.img-placeholder {
+  height: 200px;
+}
