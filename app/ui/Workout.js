@@ -49,7 +49,7 @@ const Workout = function Workout () {
                     </span>
                   </div>
                   <div className="col text-end mb-4">
-                    <Link to={`/dashboard?trainerId=${workout.trainerId}`} className="btn btn-dark btn-sm">
+                    <Link to={`/?trainerId=${workout.trainerId}`} className="btn btn-dark btn-sm">
                       <Icon icon="person-video2"/>&nbsp;
                       Other videos from this trainer
                     </Link>

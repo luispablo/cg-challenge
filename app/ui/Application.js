@@ -20,7 +20,7 @@ const Application = function Application () {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/dashboard">Dashboard</Link>
+                  <Link className="nav-link" to="/">Dashboard</Link>
                 </li>
               </ul>
             </div>
@@ -29,8 +29,8 @@ const Application = function Application () {
         <div className="row">
           <div className="col-12">
             <Switch>
-              <Route path="/dashboard"><Dashboard /></Route>
               <Route path="/workouts/:id"><Workout /></Route>
+              <Route path="/"><Dashboard /></Route>
             </Switch>
           </div>
         </div>
